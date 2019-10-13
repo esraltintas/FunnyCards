@@ -1,0 +1,26 @@
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.type {
+ padding-top: 20px;
+}
+
+.name {
+  width: 350px;
+  font-weight: 500;
+  font-size: 20px;
+
+}
