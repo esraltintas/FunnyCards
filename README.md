@@ -1,8 +1,6 @@
 # FunnyCards
 Funny Cards
 
-# Cloning Repo & Running Tests
-
 ##### Installing Dependencies
     $ npm i
 ##### Starting App
