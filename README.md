@@ -1,5 +1,5 @@
 # FunnyCards
-Funny Cards
+List Hero Cards as Infinite Scroll
 
 ##### Installing Dependencies
     $ npm i
