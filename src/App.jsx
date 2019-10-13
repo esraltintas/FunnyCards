@@ -17,7 +17,7 @@ class Index extends Component {
 
   componentDidMount () {
     document.addEventListener('scroll', this.onWindowScroll);
-    
+
     this.props.loadInitial({
       pageSize: this.loadMorePageSize,
       initialFetchSize: this.initialFetchSize
@@ -42,7 +42,7 @@ class Index extends Component {
 
     return (
       <>
-        <CardList cards={content.slice(0, page * pageSize)} />
+        {content && <CardList cards={content.slice(0, page * pageSize)} />}
         {loading &&
           <div className={styles.ldsHourglass}></div>
         }

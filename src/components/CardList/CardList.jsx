@@ -10,7 +10,7 @@ const CardList = (props) => {
         <div className={styles.cardListWrapper} >
           { cards.map((card, index) => {
             return (<Card imageUrl={card.imageUrl} 
-                key={index} 
+                key={`${index} - ${card.id}`}
                 type={card.type}  
                 id={card.id} 
                 name={card.name}/>)
